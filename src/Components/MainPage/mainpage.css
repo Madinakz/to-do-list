@@ -1,0 +1,64 @@
+
+.mainpage{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-top: 102px;
+}
+.buttons-of-actions{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.to-do-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    width: 87px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.to-do-buttons:hover{
+    color: white;
+    background-color: rgba(8, 30, 52, 0.42);;
+}
+
+.to-do-plus{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: none;
+    background-color: #081E34;
+}
+
+.plus-button{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.heading-mainpage{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid rgba(8, 30, 52, 0.42);;
+}

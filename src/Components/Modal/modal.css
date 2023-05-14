@@ -1,0 +1,61 @@
+
+.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 80px;
+  }
+  
+  .button {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  
+  .button-text {
+    margin: 0px;
+    font-size: 25px;
+  }
+  
+  .modal {
+    background-color: #e4e6e7;
+    width: 270px;
+    height: 230px;
+    position: absolute;
+    top: 95px;
+    right: 140px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: flex-start;
+  }
+  
+  .modal-textarea {
+    display: grid;
+    align-items: flex-start; 
+    background-color: white;
+    border-radius: 5px;
+    height: 120px;
+  }
+  
+  .modal-addbutton {
+    background-color: black;
+    width: 75px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+  }
+
+  .header-of-modal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+  }
